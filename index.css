@@ -57,7 +57,8 @@ img {
     min-height: 400px;
     width: 100%;
     max-width: 600px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .body-head {
@@ -85,14 +86,15 @@ footer {
 }
 
 @media only screen and (max-width: 576px) {
+    .body-cont {
+        width: 85%;
+        
+    }
     img {
         width: 100%;
     }
     body {
         margin-bottom: 30px;
-    }
-    .body-cont {
-        margin-left: 0;
     }
     .nav {
         color: black;

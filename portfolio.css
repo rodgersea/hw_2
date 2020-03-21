@@ -23,13 +23,13 @@ a:hover {
     margin: 0;
 }
 
+.links {
+    text-align: end;
+}
+
 .myName {
     font-size: 30px;
     transform: translate(0, -3px);    
-}
-
-.links {
-    text-align: end;
 }
 
 .nav {
@@ -55,6 +55,8 @@ a:hover {
     background-color: #FFFAF0;
     min-height: 400px;
     margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 60px;
 }
 
 .body-head {
