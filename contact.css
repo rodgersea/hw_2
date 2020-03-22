@@ -114,6 +114,7 @@ textarea {
     }
     .nav {
         color: black;
+        height: 45px
     }
     .links,
     .myName {
@@ -126,9 +127,10 @@ textarea {
         color: black;
     }
     .links {
-        transform: translate(0, 10px);
+        transform: translate(0, 0px);
     }
     .myName {
-        transform: translate(0, 5px);
+        transform: translate(0, -3px);
+        font-size: 40px;
     }
 }
