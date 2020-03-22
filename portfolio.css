@@ -111,6 +111,9 @@ textarea {
     }
     body {
         margin-bottom: 30px;
+    }   
+    .body-cont {
+        margin-bottom: 50px;
     }
     .nav {
         color: black;
@@ -118,9 +121,6 @@ textarea {
     .links,
     .myName {
         text-align: center;
-    }
-    .body-cont {
-        margin-left: 0;
     }
     a {
         color: black;

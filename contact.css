@@ -2,6 +2,16 @@ a {
     color: white;
 }
 
+.container {
+    margin-bottom: 60px;
+    color: yellow;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 a:hover {
     color: white;
 }
@@ -40,6 +50,7 @@ a:hover {
     max-width: 600px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 60px;
 }
 
 .body-head {
@@ -89,13 +100,18 @@ textarea {
 }
 
 @media only screen and (max-width: 576px) {    
+    .br {
+        display: none;
+    }
     img {
         width: 100%;
     }
     body {
         margin-bottom: 30px;
+    }   
+    .body-cont {
+        margin-bottom: 45px;
     }
-   
     .nav {
         color: black;
     }
