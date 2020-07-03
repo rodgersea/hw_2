@@ -1,48 +1,59 @@
-# Unit 11 Express Homework: Note Taker
+# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-## Description
+Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
-* The application frontend has already been created, it's your job to build the backend and connect the two.
+## Directions
 
-* The following HTML routes should be created:
+First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
 
-  * GET `/notes` - Should return the `notes.html` file.
+* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
 
-  * GET `*` - Should return the `index.html` file
+* Using Bootstrap, develop your portfolio site with the following items:
 
-* The application should have a `db.json` file on the backend that will be used to store and retrieve notes using the `fs` module.
+   * A navbar
 
-* The following API routes should be created:
+   * A responsive layout
 
-  * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
+   * Responsive images
 
-  * POST `/api/notes` - Should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
+* The Bootstrap portfolio should minimize the use of media queries.
 
-  * DELETE `/api/notes/:id` - Should receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique `id` when it's saved. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
 
-## User Story
+### Hints
 
-AS A user, I want to be able to write and save notes
+* Use Bootstrap's grid system (containers, rows, and columns).
 
-I WANT to be able to delete notes I've written before
+* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
 
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+* Use an HTML validation service to ensure that each page has valid HTML.
 
-## Business Context
+### Minimum Requirements
 
-For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
+* Functional, deployed application
 
-## Acceptance Criteria
+* GitHub repository with README describing the project
 
-Application should allow users to create and save notes.
+* Navbar must be consistent on each page.
 
-Application should allow users to view previously saved notes.
+* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
 
-Application should allow users to delete previously saved notes.
+* All links must work.
 
-- - -
+* Must use semantic html.
+
+* Each page must have valid and correct HTML. (use a validation service)
+
+* Must contain your personalized information. (bio, name, images, links to social media, etc.)
+
+* Must properly utilize Bootstrap components and grid system.
+
+
+### Bonus
+
+* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
+
 
 ## Commit Early and Often
 
@@ -64,13 +75,15 @@ Follow these guidelines for committing:
 
 We would like you to have well over 200 commits by graduation, so commit early and often!
 
+
 ## Submission on BCS
 
 You are required to submit the following:
 
-* The URL of the deployed application
+* The URLs of the deployed applications
 
-* The URL of the GitHub repository
+* The URLs of the GitHub repositories
 
 - - -
+
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
